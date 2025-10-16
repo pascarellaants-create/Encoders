@@ -1,0 +1,25 @@
+package SiR;
+
+import java.util.Random;
+import java.util.Scanner;
+
+import javax.security.auth.kerberos.KeyTab;
+
+public class KeyGen {
+    
+    private Random key;
+
+    public KeyGen(){
+
+        key = new Random();
+
+    }
+
+    public int getKey(){
+
+        return key.nextInt(24)
+
+    }
+
+
+}
