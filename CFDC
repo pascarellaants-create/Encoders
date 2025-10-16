@@ -1,0 +1,20 @@
+package SiR;
+
+import java.util.Scanner;
+
+
+public class CFDC{
+
+    public static void main(String[] args){
+
+    Enc enc = new Enc()
+    //KeyGen key = new KeyGen();
+
+    enc.encode()
+
+
+
+
+    }
+
+}
