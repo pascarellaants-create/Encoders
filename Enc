@@ -1,0 +1,26 @@
+package SiR;
+
+public class Enc{
+
+    private int key;
+    private String m;
+
+    public key(int a, String M){
+
+    key = a;
+    m = M;
+
+    }
+
+    public String encode(){
+
+        for(int i=0; i<m.length(); i++){
+
+            m.charAt(i)=+key;
+
+        }
+
+    }
+
+
+}
